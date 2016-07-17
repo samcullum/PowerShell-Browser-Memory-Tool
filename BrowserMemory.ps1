@@ -1,4 +1,6 @@
-﻿Function Record-BrowserMemory
+﻿
+
+Function Record-BrowserMemory
 {
 <#
 .SYNOPSIS
@@ -15,6 +17,11 @@ Internet Explorer (iexplore), Google Chrome (chrome), Mozilla Firefox (firefox) 
 The interval in seconds that data is sampled and written to result files (not mandatory). Min = 1, Max = 60. Default: 5.
 .PARAMETER ResultsPath
 The location in which the result text and csv files will be stored (mandatory).
+.NOTES
+  Version:        1.0
+  Author:         Sam Cullum
+  Creation Date:  17/07/2016
+  Purpose/Change: Initial script development
 .EXAMPLE
 Record-Browser -Browser iexplore -Interval 3 -ResultsPath c:\TestFolder 
 .EXAMPLE
